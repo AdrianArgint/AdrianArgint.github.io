@@ -117,6 +117,18 @@ aside#sidebar {
   padding-left: 0;
   padding-right: 0;
 }
+.contact h1 {
+  padding-left: 10px;
+}
+
+.contact img {
+  padding-left: 10px;
+}
+
+.contact p {
+  padding-left: 10px;
+}
+
 .inline-div {
   float: left;
   width: 50%;
@@ -136,6 +148,7 @@ aside#sidebar {
   margin-top: 0;
   float: right;
   width: auto;
+  padding-right: 50px;
 }
 
 .work {
