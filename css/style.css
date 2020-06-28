@@ -24,11 +24,12 @@ article {
   padding: 15px;
 }
 
-.dark{
+.blue{
+  text-align: left;
   background:#5cacf2;
-  color:#ffffff;
+  color:#000000;
   margin-right: 0;
-  margin-top:5px;
+  margin-top:10px;
   margin-bottom:10px;
 }
 
@@ -94,15 +95,37 @@ header .highlight {
 /* Main */
 article#main-col {
   float: left;
-  width: 65%;
+  width: 60%;
+}
+
+/* Sidebar */
+aside#sidebar {
+
+  float: right;
+  width: 35%;
+  margin-top: 30px;
 }
 
 /* Contact */
-.contact li{
-  float:left;
-  display:inline;
-  padding: 0 20px 0 20px;
+.contact {
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
 }
+.inline-div {
+  float: left;
+  width: 50%;
+}
+
+
+/* Sth */
+.sth {
+  padding-bottom: 0;
+  padding-top: 100px;
+}
+
+
+
 
 footer{
   padding:20px;
