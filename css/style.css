@@ -92,6 +92,10 @@ header .highlight {
   padding: 10px;
 }
 
+.box img, p{
+  float: none;
+}
+
 /* Main */
 article#main-col {
   float: left;
@@ -100,7 +104,6 @@ article#main-col {
 
 /* Sidebar */
 aside#sidebar {
-
   float: right;
   width: 35%;
   margin-top: 30px;
@@ -109,6 +112,8 @@ aside#sidebar {
 /* Contact */
 .contact {
   width: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -117,11 +122,30 @@ aside#sidebar {
   width: 50%;
 }
 
+.inline-div p, img {
+  float: left;
+}
 
-/* Sth */
-.sth {
+/* Work Experience */
+.name {
+  margin-top: 0;
+  float: left;
+  width: auto;
+}
+.date {
+  margin-top: 0;
+  float: right;
+  width: auto;
+}
+
+.work {
   padding-bottom: 0;
-  padding-top: 100px;
+  padding-top: 20px;
+}
+
+.work p {
+  margin-top: 120px;
+  text-align: left;
 }
 
 
