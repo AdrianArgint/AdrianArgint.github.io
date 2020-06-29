@@ -168,6 +168,7 @@ aside#sidebar {
   margin-top: 0;
   float: left;
   width: auto;
+  margin-bottom: 10px;
 }
 .date {
   margin-top: 0;
@@ -185,7 +186,8 @@ aside#sidebar {
 }
 
 .work p {
-  padding-top: 50px;
+
+  margin-top: 130px;
   text-align: left;
   padding-bottom: 50px;
 }
@@ -193,12 +195,15 @@ aside#sidebar {
 
 
 .inline-div {
-  margin-left: 350px;
+  margin-left: 330px;
   float: left;
   width: 20%;
-  text-align:left;
+  text-align: left;
 }
 
+.inline-div p {
+  padding-left: 10px;
+}
 .inline-div p, img {
   float: left;
 }
